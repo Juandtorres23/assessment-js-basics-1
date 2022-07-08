@@ -35,6 +35,8 @@ if (faveNum === 13) {
 
 //CODE HERE
 
-for (i = 0; i < 6; i++) {
-  console.log(faveNum[i])
+for (i = 0; i < 5; i++) {
+  console.log(faveNum)
 }
+
+// complete

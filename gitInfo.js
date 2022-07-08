@@ -95,3 +95,4 @@ var gitPushDefinition = "This command allows you to send (or push) the commits f
 
 console.log(gitPushDefinition)
 
+// Git Info Complete 

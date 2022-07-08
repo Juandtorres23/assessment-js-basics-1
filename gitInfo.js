@@ -28,7 +28,8 @@ console.log(gitHubDefinition)
 */
 
 //CODE HERE
-
+var gitInitDefinition = "Initializes a local repository right in the folder you are in"
+console.log(gitInitDefinition)
 //////////////////PROBLEM 4////////////////////
 /*
     Create a variable called 'gitCloneDefinition'.  
@@ -36,7 +37,8 @@ console.log(gitHubDefinition)
 */
 
 //CODE HERE
-
+var gitCloneDefinition = "Copies a repository from GitHub and puts it in your machine"
+console.log(gitCloneDefinition)
 //////////////////PROBLEM 5////////////////////
 /*
     Create a variable called 'gitStatusDefinition'.  

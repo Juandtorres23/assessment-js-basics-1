@@ -10,7 +10,7 @@
 */
 
 //CODE HERE
-var gitDefinition = "Version control software; its purpose is to make builds easier and allow collaboration between developers by keeping different versions of projects in storage"
+var gitDefinition = "Version control software; its purpose is to make builds easier and allow collaboration between developers by keeping different versions of projects in storage."
 console.log(gitDefinition)
 //////////////////PROBLEM 2////////////////////
 /*
@@ -19,7 +19,8 @@ console.log(gitDefinition)
 */
 
 //CODE HERE
-
+var gitHubDefinition = "It is a website that allows you to take your git repositories and upload/download them, it is essentially a cloud service for your git repositories."
+console.log(gitHubDefinition)
 //////////////////PROBLEM 3////////////////////
 /*
     Create a variable called 'gitInitDefinition'.  

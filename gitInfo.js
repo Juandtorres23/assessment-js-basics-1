@@ -10,7 +10,8 @@
 */
 
 //CODE HERE
-
+var gitDefinition = "Version control software; its purpose is to make builds easier and allow collaboration between developers by keeping different versions of projects in storage"
+console.log(gitDefinition)
 //////////////////PROBLEM 2////////////////////
 /*
     Create a variable called 'gitHubDefinition'.  

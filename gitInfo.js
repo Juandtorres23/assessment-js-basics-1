@@ -76,6 +76,12 @@ console.log(gitAddCode)
 
 //CODE HERE
 
+var gitCommitDefinition = "Creates a snapshot of the files you are tracking."
+
+var gitCommitCode = "git commit -m 'initial commit'"
+
+console.log(gitCommitDefinition)
+console.log(gitCommitCode)
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -84,3 +90,8 @@ console.log(gitAddCode)
 */
 
 //CODE HERE
+
+var gitPushDefinition = "This command allows you to send (or push) the commits from your local branch in your local Git repository to the remote repository."
+
+console.log(gitPushDefinition)
+

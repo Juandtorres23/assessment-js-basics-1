@@ -28,7 +28,7 @@ console.log(gitHubDefinition)
 */
 
 //CODE HERE
-var gitInitDefinition = "Initializes a local repository right in the folder you are in"
+var gitInitDefinition = "Initializes a local repository right in the folder you are in."
 console.log(gitInitDefinition)
 //////////////////PROBLEM 4////////////////////
 /*
@@ -37,7 +37,7 @@ console.log(gitInitDefinition)
 */
 
 //CODE HERE
-var gitCloneDefinition = "Copies a repository from GitHub and puts it in your machine"
+var gitCloneDefinition = "Copies a repository from GitHub and puts it in your machine."
 console.log(gitCloneDefinition)
 //////////////////PROBLEM 5////////////////////
 /*
@@ -46,7 +46,7 @@ console.log(gitCloneDefinition)
 */
 
 //CODE HERE
-var gitStatusDefinition = "Tells me about this repository"
+var gitStatusDefinition = "Tells me about this repository."
 console.log(gitStatusDefinition)
 //////////////////PROBLEM 6////////////////////
 /*
@@ -58,6 +58,12 @@ console.log(gitStatusDefinition)
 */
 
 //CODE HERE
+var gitAddDefinition = "Adds some files to be tracked."
+
+var gitAddCode = "git add -A"
+
+console.log(gitAddDefinition)
+console.log(gitAddCode)
 
 //////////////////PROBLEM 7////////////////////
 /*

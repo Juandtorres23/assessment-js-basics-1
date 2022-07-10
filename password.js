@@ -28,6 +28,9 @@ console.log(containsSpace(password))
 const char = "password"                                                                        //A variable created with a string to check if the specific key word is included in the password
 
 console.log(password.includes(char));
+
+
+// Initial attempt
 // if (password.length >= 10 && containsNumber(password) === true && containsAnyLetter(password) === true) {
 //     console.log("Password a Success");
 // } else {
@@ -45,7 +48,8 @@ if (password.length >= 10) {                                                    
                     if (containsSpace(password) === false) {                                        //*Additional check - Check if password contains a space
                         if (password.length < 20) {                                                 //*Additional check - Check if passwords length acceds 20 characters
                             if (password.includes(char) === false) {                                //*Additional check - Check if the string password is in the created password 
-                                console.log('Password Successful!')
+                                console.log('Password\n' +
+                                'Successful!')                                                      //Multi-line string
                             } else {
                                 console.log('Cannot contain the word "password"!')
                             }

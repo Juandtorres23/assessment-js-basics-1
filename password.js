@@ -1,31 +1,31 @@
 var password = "Bigchanges@407"
 
-function containsNumber(password) {
+function containsNumber(password) {                                                            //Function created to check for numerical values in the string provided
     return /[0-9]/.test(password);
 }
 console.log(containsNumber(password))
 
-function containsLowercaseLetter(password) {
+function containsLowercaseLetter(password) {                                                   //Function created to check for lowercase letters 
     return /[a-z]/.test(password);
 }
 console.log(containsLowercaseLetter(password))
 
-function containsUppercaseLetter(password) {
+function containsUppercaseLetter(password) {                                                   //Function created to check for uppercase letters 
     return /[A-Z]/.test(password);
 }
 console.log(containsUppercaseLetter(password))
 
-function containsSpecialChars(password) {
+function containsSpecialChars(password) {                                                      //Function created to check for specific special characters 
     return /[!@#$%&*?]/.test(password)
 }
 console.log(containsSpecialChars(password))
 
-function containsSpace(password) {
+function containsSpace(password) {                                                             //Function created to check for a space 
     return /[ ]/.test(password)
 }
 console.log(containsSpace(password))
 
-const char = "password"
+const char = "password"                                                                        //A variable created with a string to check if the specific key word is included in the password
 
 console.log(password.includes(char));
 // if (password.length >= 10 && containsNumber(password) === true && containsAnyLetter(password) === true) {
@@ -37,14 +37,14 @@ console.log(password.includes(char));
 
 
 
-if (password.length >= 10) {
-    if (containsNumber(password) === true) {
-        if (containsLowercaseLetter(password) === true) {
-            if (containsUppercaseLetter(password) === true) {
-                if (containsSpecialChars(password) === true) {
-                    if (containsSpace(password) === false) {
-                        if (password.length < 20) {
-                            if (password.includes(char) === false) {
+if (password.length >= 10) {                                                                        //check for minimum lenght of password
+    if (containsNumber(password) === true) {                                                        //Check if password contains numbers
+        if (containsLowercaseLetter(password) === true) {                                           //Check if password contains lowercase letters
+            if (containsUppercaseLetter(password) === true) {                                       //Check if password contains uppercase letters
+                if (containsSpecialChars(password) === true) {                                      //Check if password contains special characters 
+                    if (containsSpace(password) === false) {                                        //*Additional check - Check if password contains a space
+                        if (password.length < 20) {                                                 //*Additional check - Check if passwords length acceds 20 characters
+                            if (password.includes(char) === false) {                                //*Additional check - Check if the string password is in the created password 
                                 console.log('Password Successful!')
                             } else {
                                 console.log('Cannot contain the word "password"!')
